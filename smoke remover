@@ -1,0 +1,11 @@
+elements.smoke_remover = { //pov: you tried using water to cool something
+    name: "smoke remover",
+    color: "#542900",
+    behavior: [
+        "CH:smoke>smoke_remover|CH:smoke>smoke_remover|CH:smoke>smoke_remover",
+        "CH:smoke>smoke_remover|CH:steam>smoke_remover|CH:smoke>smoke_remover",
+        "CH:smoke>smoke_remover|CH:steam>smoke_remover|CH:smoke>smoke_remover",
+    ],
+    category: "special",
+    excludeRandom: true,
+},
